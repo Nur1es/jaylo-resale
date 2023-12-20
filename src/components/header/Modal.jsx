@@ -24,7 +24,7 @@ export default Modal
 const ModalStyle = styled.div`
   width: 150px;
   height: 150px;
-  padding: 15% 20%;
+  padding: 13% 15%;
   background-color: white;
   border-radius:10px;
   position:absolute;

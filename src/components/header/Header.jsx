@@ -18,14 +18,15 @@ const Header = () => {
     <div>
         {state && (
         <Modal blockModal={clickHandler}>
-        <h4>главная</h4>
-        <h4>O нас</h4>
-        <h4>Контакты</h4>
-        <h3>Бренды</h3>
-            <ul style={{ listStyle: "none", color: "black" }}>
-              <li>+996 709 590 511</li>
-              <li>+996 228 905 707</li>
-            </ul>
+          <ModalText>
+        <p>главная</p>
+        <p>O нас</p>
+        <p>Контакты</p>
+        <p>Бренды</p>
+         <p>+996 709 590 511</p>
+        <p>+996 228 905 707</p>
+        </ModalText>
+           
         </Modal>
       )}
       <HeaderContainer>
@@ -100,4 +101,14 @@ const ContainerPhone = styled.div`
   @media(max-width:375px){
     display: none;
   }
+`
+const ModalText = styled.div`
+cursor: pointer;
+width: 150px;
+height: 170px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+font-family: 'Roboto', sans-serif;
 `
