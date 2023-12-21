@@ -115,7 +115,6 @@ const NextMainStyled = styled.main`
     height: 460px;
     margin: auto;
     margin-top: 130px;
-    border: 1px solid red;
     @media (max-width: 375px) {
         height: 171px;
         margin-top: 50px;

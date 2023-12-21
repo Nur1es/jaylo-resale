@@ -35,10 +35,10 @@ const Header = () => {
           <BurgerMenu onClick={clickHandler}/>
           <nav>
             <Ul>
-              <li>Главная</li>
-              <li>O нас</li>
-              <li>Контакты</li>
-              <li>Бренды</li>
+              <li >Главная</li>
+              <li >O нас</li>
+              <li >Контакты</li>
+              <li >Бренды</li>
             </Ul>
           </nav>
           <ContainerPhone>
@@ -83,6 +83,7 @@ const LogoText = styled.img`
   }
 `
 const Ul = styled.ul`
+  cursor: pointer;
   width: 470px;
   display: flex;
   align-items: center;
