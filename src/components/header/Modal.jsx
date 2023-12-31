@@ -22,8 +22,8 @@ const Modal = (props) => {
 export default Modal 
 
 const ModalStyle = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   padding: 13% 15%;
   background-color: white;
   border-radius:10px;
